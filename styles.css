@@ -1,0 +1,106 @@
+body{
+            background: grey;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+ header{
+            background: black;
+            background-image: url("images/maserati.jpg");
+            background-size: 100%;
+            background-position: center;
+            padding: 20px;
+            height: 400px;
+            text-align: center;
+        }
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}     
+header .mobile{
+    display: none;
+} 
+header .logo a{
+    background-image: url("images/bwmustang.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -70px;
+    width: 300px;
+}  
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+@media screen and (max-width:748px) {
+    header{
+        height: 200px;
+        background-position: 0 -30px;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    
+        
+    
+    header .desktop{
+        display:none;
+    }
+
+    
+}
+@media screen and (max-width:748px) {
+    header{
+        height: 150px;
+        background-position: 0 -0px;
+        
+    }
+    header .logo a{
+        opacity: 0.9;
+    }
+    
+
+    
+}
+
+/* Features */
+.features {
+            background: white;
+            color: gray;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+.features figure{
+            
+            margin: auto;
+            width: 200px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+.features figure img{
+            border: 1px solid white;   
+            border-radius: 50%;
+            box-shadow: gray 0 0 10px;
+            width: 200px;
+        }
+footer{
+            background: black;
+            color: gray;
+            font-size: 12px;
+            text-align: center;
+            padding: 20px 20px;  
+        }
